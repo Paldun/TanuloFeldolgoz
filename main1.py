@@ -10,7 +10,7 @@ while True:
     tanulo = (nev, szId, magassag)
     tanulok.append(tanulo)
 
-    valasz = input("Tuvábbi tanulo? y/N ")
+    valasz = input("Tuvábbi tanulo? y/n ")
     if valasz.lower() != 'y':
         break
 
