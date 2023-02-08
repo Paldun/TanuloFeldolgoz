@@ -14,3 +14,9 @@ while True:
     if valasz.lower() != 'y':
         break
 
+#2 Fasz se tudja
+
+
+#3 Hozzáférés listaelem segítségével
+for item in tanulok:
+    print(f"Név: {item[0]}, születési idő: {item[1]}, magasság: {item[2]}")
